@@ -257,7 +257,7 @@ client.on('interactionCreate', async interaction => {
 
         const logEmbed = new EmbedBuilder()
             .setColor("ff0000")
-            .setDescription(`<@${interaction.user.id}> adlı kullanıcı sistemden bir **link sildi!**\n\n Sistemde kalan link sayısı **'.length'** \n\n :link: Link:`)
+            .setDescription(`<@${interaction.user.id}> adlı kullanıcı sistemden bir **link sildi!**\n\n Sistemde kalan link sayısı **${links.length}** `)
 			.setImage("https://cdn.discordapp.com/attachments/1105524120805969952/1170422555811795065/standard_1.gif?ex=6558fbf2&is=654686f2&hm=47ee81e75b57ee46879e430905d54f17625daa673ab016783cbefcd14cb16a11&")
         logChannel.send({ embeds: [logEmbed] }).catch(e => { })
     }
