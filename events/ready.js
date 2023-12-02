@@ -28,7 +28,7 @@ const client = new Client({
 module.exports = async (client) => {
 	
 	
-  let kanal = "";//Baþlangýç mesajýný göndereceði kanalýn ID si
+  let kanal = "1174646342241488912"; // Start mesajÄ±nÄ± atacaÄŸÄ± kanal.
   let startingAt = Math.ceil( Date.now()/1000);
  
   let message = new EmbedBuilder()
@@ -51,11 +51,8 @@ module.exports = async (client) => {
   
 	let links = await mustifixdb.get("uptimeLinks");
 	let text = ""
-	if(links.length<5){
-	text = `Kimse beni kullanmak istemiyor mu ? Sadece ${links.length} link kayÄ±t edilmiÅŸ.`}
-	else {
-		text = `Beni sevenler de varmÄ±ÅŸ galiba :) Toplamda ${links.length} link kayÄ±t edilmiÅŸ`
-	}
+	if(links.length){
+	text = ` 500/${links.length} link uptime ediliyor!`}
 	let gamingList = ["Desinger By. Mustifix","Kalitenin Adresi!", "Tamamen Ãœcretsiz!",text,"Uptime iÅŸi bizde!"]
 	
 
