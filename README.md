@@ -2,4 +2,4 @@
 
 İyi kullanımlar :)
 
-> Desinged/Developed By: Mustifix-Güray
+> Desinged/Developed By: Mustifix-Güra
