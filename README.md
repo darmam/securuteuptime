@@ -1,5 +1,4 @@
 # Securute Uptime
 
-İyi kullanımlar :)
-
+İyi kullanımlar :
 > Desinged/Developed By: Mustifix-Güra
